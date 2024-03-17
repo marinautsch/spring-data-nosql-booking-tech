@@ -1,7 +1,5 @@
 package entities;
 
-import java.time.LocalDateTime;
-
 public class ClienteEntity {
 
     private final String nome, email, telefone;

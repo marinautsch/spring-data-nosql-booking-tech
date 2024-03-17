@@ -5,10 +5,10 @@ import java.time.LocalDateTime;
 public class AvaliacaoEntity {
 
     private final int nota;
-    private final String avaliacao;
+    private final String comentario;
 
-    public AvaliacaoEntity (int nota, String avaliacao){
-        if(avaliacao.isEmpty()){
+    public AvaliacaoEntity (int nota, String comentario, ClienteEntity cliente, RestauranteEntity restaurante, LocalDateTime dataAvaliacao){
+        if(comentario.isEmpty()){
             throw new IllegalArgumentException("Avaliação não pode estar em branco!");
         }
         if (nota<1 || nota>5){
@@ -16,7 +16,7 @@ public class AvaliacaoEntity {
         }
 
         this.nota=nota;
-        this.avaliacao=avaliacao;
+        this.comentario=comentario;
     }
 
 }
