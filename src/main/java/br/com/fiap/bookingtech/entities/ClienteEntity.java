@@ -1,4 +1,4 @@
-package entities;
+package br.com.fiap.bookingtech.entities;
 
 public class ClienteEntity {
 

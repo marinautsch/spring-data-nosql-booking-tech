@@ -1,8 +1,8 @@
-package usecases;
+package br.com.fiap.bookingtech.usecases;
 
-import entities.AvaliacaoEntity;
-import entities.ClienteEntity;
-import entities.RestauranteEntity;
+import br.com.fiap.bookingtech.entities.AvaliacaoEntity;
+import br.com.fiap.bookingtech.entities.ClienteEntity;
+import br.com.fiap.bookingtech.entities.RestauranteEntity;
 
 import java.time.LocalDateTime;
 
